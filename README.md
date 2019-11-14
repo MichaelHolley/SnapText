@@ -18,3 +18,4 @@ This is still WIP.
 ## Future
 - Copy to clipboard
 - Automatically create History-folder when not being downloaded with main-.py-file
+- GUI to take a Screenshot or select an image
