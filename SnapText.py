@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from pytesseract import image_to_string
-from PIL import Image, ImageGrab
+from PIL import ImageGrab
 import os
 from datetime import datetime
 
