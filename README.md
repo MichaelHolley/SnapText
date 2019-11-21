@@ -3,7 +3,8 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 
 ## How to use
 1. Execute
-2. Select ROI and press S to select
+2. Select ROI and press S-Key to select
+4. Press Esc-Key to stop program
 3. Copy text from Console
 
 ## Disclaimer
@@ -17,5 +18,4 @@ This is still WIP.
 
 ## Future
 - Copy to clipboard
-- Automatically create History-folder when not being downloaded with main-.py-file
 - GUI to take a Screenshot or select an image
