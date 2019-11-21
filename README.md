@@ -7,9 +7,6 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 4. Press any key to stop program
 3. Copy text from console
 
-## Disclaimer
-This is still WIP.
-
 ## Known Issues
 - With multiple Screens/Monitors connected, it will only capture the "main" screen
 - Launching the code will trigger the screenshot immediately without giving the chance to switch between Apps
