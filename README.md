@@ -4,8 +4,8 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 ## How to use
 1. Execute
 2. Select ROI and press S-Key to select
-4. Press Esc-Key to stop program
-3. Copy text from Console
+4. Press any key to stop program
+3. Copy text from console
 
 ## Disclaimer
 This is still WIP.
