@@ -63,7 +63,6 @@ def select_image():
 
 
 def close_window():
-    global window
     window.destroy()
 
 
@@ -101,6 +100,12 @@ def selectRegion(event, x, y, flags, param):
         roi.w = x - roi.x
         roi.h = y - roi.y
 
+def copyToClipboard(text):
+    r = Tk()
+    r.withdraw()
+    r.clipboard_clear()
+    r.clipboard_append(text)
+    r.destroy()
 
 cv2.namedWindow('Screenshot')
 cv2.setMouseCallback('Screenshot', selectRegion)
@@ -129,6 +134,7 @@ while True:
                     image_region)
 
         textInImage = image_to_string(image_region)
+        copyToClipboard(textInImage)
         print(textInImage)
         break;
     if key == 27:  # ESC-Key -> Stop
