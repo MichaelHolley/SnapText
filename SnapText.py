@@ -81,6 +81,10 @@ while True:
         cv2.imshow('Screenshot Region', image_region)
 
         ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # Project-Root
+        snap_dirPath = ROOT_DIR + "/SnapHistory/"
+        if not os.path.exists(snap_dirPath):
+            os.makedirs(snap_dirPath)
+
         cv2.imwrite(ROOT_DIR + "/SnapHistory/" + datetime.now().strftime("%Y-%d-%m_%H-%M-%S") +".png", image_region)
 
         textInImage = image_to_string(image_region)
