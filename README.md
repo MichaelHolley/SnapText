@@ -4,8 +4,8 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 ## How to use
 1. Execute
 2. Select ROI and press S-Key to select
-4. Press any key to stop program
-3. Copy text from console
+4. Press any key to stop the program
+3. Copy text from the console
 
 ## Known Issues
 - With multiple Screens/Monitors connected, it will only capture the "main" screen
