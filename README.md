@@ -1,6 +1,12 @@
 # SnapText
 This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which is ment to recognize text in images for use with Application, Websites and Images where you are unable to copy the text by selecting it.
 
+## Required libs:
+- Pytesseract
+- PIL
+- Numpy
+- OpenCV
+
 ## How to use
 1. Execute
 2. Select ROI and press S-Key to select
