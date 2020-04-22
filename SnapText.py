@@ -77,7 +77,6 @@ takenImageButton = Button(frame, text="Select Image", command=select_image, widt
 closeButton = Button(frame, text="Close", command=sys.exit, width=10).grid(row=3, column=0)
 window.mainloop()
 
-
 roi = Rectangle()
 isPressed = False
 
@@ -100,12 +99,14 @@ def selectRegion(event, x, y, flags, param):
         roi.w = x - roi.x
         roi.h = y - roi.y
 
+
 def copyToClipboard(text):
     r = Tk()
     r.withdraw()
     r.clipboard_clear()
     r.clipboard_append(text)
     r.destroy()
+
 
 cv2.namedWindow('Screenshot')
 cv2.setMouseCallback('Screenshot', selectRegion)
