@@ -8,12 +8,11 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 - OpenCV
 
 ## How to use
-1. Execute
+1. Execute and use the Application-GUI to do a screenshot or select an image
 2. Select ROI and press S-Key to select
-4. Press any key to stop the program
-3. Copy text from the console
+3. Press any key to stop the program
+4. Copy text from the console
 
 ## Known Issues
 - With multiple Screens/Monitors connected, it will only capture the "main" screen
-- Launching the code will trigger the screenshot immediately without giving the chance to switch between Apps
 - the text in the ROI has to be big enough to undergo OCR => Necessary to zoom in manually
