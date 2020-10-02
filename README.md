@@ -6,6 +6,7 @@ This is a OCR -Tool for screenshots made with OpenCV, Python and Pillow, which i
 - PIL
 - Numpy
 - OpenCV
+- tkinter
 
 ## How to use
 1. Execute and use the Application-GUI to do a screenshot or select an image
